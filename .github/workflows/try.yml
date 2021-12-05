@@ -1,5 +1,5 @@
 # This is a workflow to help you run all JMeter scripts with Actions, and save Test Results as artifact
-name: jmeter_test_results
+name: jmeter_JTL_to_CSV_test_results
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
