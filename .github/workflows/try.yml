@@ -43,6 +43,7 @@ jobs:
           wget -q --no-check-certificate https://jmeter-plugins.org/files/packages/jpgc-synthesis-2.1.zip  -P .
           unzip -o jpgc-dummy-0.4.zip  && rm jpgc-dummy-0.4.zip
           unzip -o jpgc-cmd-2.0.zip  && rm jpgc-cmd-2.0.zip
+          unzip -o jpgc-synthesis-2.1.zip  && rm jpgc-synthesis-2.1.zip
           ls $GITHUB_WORKSPACE/apache-jmeter-5.4.1/bin
       - name: run jmx scripts
         run: |
