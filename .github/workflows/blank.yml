@@ -34,5 +34,6 @@ jobs:
         run: |
           git branch -a
           git checkout -b test_results
+          git pull
           mkdir results
           git push origin test_results
